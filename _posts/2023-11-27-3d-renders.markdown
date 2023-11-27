@@ -20,15 +20,14 @@ categories: portfolio update
 <img 
 	src="../../../IMG_3608.png" 
 	alt="Gary the Snail Project" 
-	title="Gary the Snail 3D model" />
-<center><p> Everyone's favorite snail under the sea. Made using Blender 3D 
-<a href="https://youtu.be/IPh1gfI_ELg">Watch on Youtube</a> </p></center>
+	title="Gary the Snail 3D Model" />
+<center><p> Everyone's favorite snail under the sea. Made using Blender 3D </p></center>
 
 <img 
 	src="../../../pochita.png" 
 	alt="Pochita Project" 
 	title="Pochita 3D model" />
-<center><p> From the anime "Chainsaw Man", meet Pochita! Made using Blende 3D 
+<center><p> From the anime "Chainsaw Man", meet Pochita! Made using Blender 3D 
 <a href="https://youtu.be/IPh1gfI_ELg">Watch on Youtube</a> </p></center>
 
 <center><img 
