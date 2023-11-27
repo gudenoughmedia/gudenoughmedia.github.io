@@ -1,2 +1,0 @@
-# gudenoughmedia.github.io
-Portfolio
