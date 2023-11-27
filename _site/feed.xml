@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-11-27T14:06:04-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">My Portfolio</title><subtitle>Hi my name is Christian Neff, I have a lot of unique hobbies I&apos;ve acquired through the years.  To name a few: crocheting, 3d animation &amp; video production, video/disc jockeying, music production,  and homelab network projects. </subtitle><entry><title type="html">Portfolio Is Live</title><link href="http://localhost:4000/2023/11/27/portfolio-is-live.html" rel="alternate" type="text/html" title="Portfolio Is Live" /><published>2023-11-27T00:00:00-07:00</published><updated>2023-11-27T00:00:00-07:00</updated><id>http://localhost:4000/2023/11/27/portfolio-is-live</id><content type="html" xml:base="http://localhost:4000/2023/11/27/portfolio-is-live.html">&lt;hr /&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-11-27T14:54:45-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">My Portfolio</title><subtitle>Hi my name is Christian Neff, I have a lot of unique hobbies I&apos;ve acquired through the years.  To name a few: crocheting, 3d animation &amp; video production, video/disc jockeying, music production,  and homelab network projects. </subtitle><entry><title type="html">Portfolio Is Live</title><link href="http://localhost:4000/2023/11/27/portfolio-is-live.html" rel="alternate" type="text/html" title="Portfolio Is Live" /><published>2023-11-27T00:00:00-07:00</published><updated>2023-11-27T00:00:00-07:00</updated><id>http://localhost:4000/2023/11/27/portfolio-is-live</id><content type="html" xml:base="http://localhost:4000/2023/11/27/portfolio-is-live.html">&lt;hr /&gt;
 &lt;p&gt;layout: post
 title:  “Portfolio is live!”
 date:   2023-11-27 12:24:23 -0700
@@ -23,14 +23,16 @@ categories: portfolio update&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;../../../Scene_1_14.2856507.png&quot; alt=&quot;Unreal Engine 5 Project&quot; title=&quot;UE5 hyperrealism project&quot; /&gt;&lt;/p&gt;
 &lt;center&gt;&lt;p&gt; Project using Unreal Engine 5 and hyperrealism, &lt;/p&gt;&lt;/center&gt;
 
-&lt;p&gt;&lt;img src=&quot;../../../IMG_3608.png&quot; alt=&quot;Gary the Snail Project&quot; title=&quot;Gary the Snail 3D model&quot; /&gt;&lt;/p&gt;
-&lt;center&gt;&lt;p&gt; Everyone&apos;s favorite snail under the sea. Made using Blender 3D 
-&lt;a href=&quot;https://youtu.be/IPh1gfI_ELg&quot;&gt;Watch on Youtube&lt;/a&gt; &lt;/p&gt;&lt;/center&gt;
+&lt;p&gt;&lt;img src=&quot;../../../IMG_3608.PNG&quot; alt=&quot;Gary the Snail Project&quot; title=&quot;Gary the Snail 3D Model&quot; /&gt;&lt;/p&gt;
+&lt;center&gt;&lt;p&gt; Everyone&apos;s favorite snail under the sea. Made using Blender 3D &lt;/p&gt;&lt;/center&gt;
 
 &lt;p&gt;&lt;img src=&quot;../../../pochita.png&quot; alt=&quot;Pochita Project&quot; title=&quot;Pochita 3D model&quot; /&gt;&lt;/p&gt;
-&lt;center&gt;&lt;p&gt; From the anime &quot;Chainsaw Man&quot;, meet Pochita! Made using Blende 3D 
-&lt;a href=&quot;https://youtu.be/IPh1gfI_ELg&quot;&gt;Watch on Youtube&lt;/a&gt; &lt;/p&gt;&lt;/center&gt;
+&lt;center&gt;&lt;p&gt; From the anime &quot;Chainsaw Man&quot;, meet Pochita! Made using Blender 3D. &lt;a href=&quot;https://youtu.be/IPh1gfI_ELg&quot;&gt;Watch on Youtube&lt;/a&gt; &lt;/p&gt;&lt;/center&gt;
+&lt;center&gt;&lt;p&gt;Check out the interactive spline model below, left click = orbit, shift + left click = pan. &lt;/p&gt;&lt;/center&gt;
+&lt;script type=&quot;module&quot; src=&quot;https://unpkg.com/@splinetool/viewer@0.9.508/build/spline-viewer.js&quot;&gt;&lt;/script&gt;
 
+&lt;spline-viewer hint=&quot;&quot; loading-anim-type=&quot;spinner-small-dark&quot; url=&quot;https://prod.spline.design/Pha3-cdmZma26m3I/scene.splinecode&quot;&gt;&lt;/spline-viewer&gt;
+&lt;p&gt;&lt;/p&gt;
 &lt;center&gt;&lt;img src=&quot;../../../josuke_duck.png&quot; alt=&quot;Josuke x Quaxly&quot; title=&quot;Quaxly 3D model&quot; width=&quot;370&quot; height=&quot;600&quot; /&gt;
 &lt;center&gt;&lt;p&gt; New pokemon Quaxly reminds me of a certain anime protaganist. See the bizzare mashup: 
 &lt;a href=&quot;https://youtu.be/IPh1gfI_ELg&quot;&gt;Watch on Youtube&lt;/a&gt; &lt;/p&gt;&lt;/center&gt;

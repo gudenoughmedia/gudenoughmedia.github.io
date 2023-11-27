@@ -27,9 +27,11 @@ categories: portfolio update
 	src="../../../pochita.png" 
 	alt="Pochita Project" 
 	title="Pochita 3D model" />
-<center><p> From the anime "Chainsaw Man", meet Pochita! Made using Blender 3D 
-<a href="https://youtu.be/IPh1gfI_ELg">Watch on Youtube</a> </p></center>
-
+<center><p> From the anime "Chainsaw Man", meet Pochita! Made using Blender 3D. <a href="https://youtu.be/IPh1gfI_ELg">Watch on Youtube</a> </p></center>
+<center><p>Check out the interactive spline model below, left click = orbit, shift + left click = pan. </p></center>
+<script type="module" src="https://unpkg.com/@splinetool/viewer@0.9.508/build/spline-viewer.js"></script>
+<spline-viewer hint loading-anim-type="spinner-small-dark" url="https://prod.spline.design/Pha3-cdmZma26m3I/scene.splinecode"></spline-viewer>
+<p></p>
 <center><img 
 	src="../../../josuke_duck.png" 
 	alt="Josuke x Quaxly" 
