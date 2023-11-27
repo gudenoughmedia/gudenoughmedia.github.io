@@ -18,7 +18,7 @@ categories: portfolio update
 <center><p> Project using Unreal Engine 5 and hyperrealism, </p></center>
 
 <img 
-	src="../../../IMG_3608.png" 
+	src="../../../IMG_3608.PNG" 
 	alt="Gary the Snail Project" 
 	title="Gary the Snail 3D Model" />
 <center><p> Everyone's favorite snail under the sea. Made using Blender 3D </p></center>
