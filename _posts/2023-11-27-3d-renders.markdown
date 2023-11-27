@@ -1,0 +1,50 @@
+---
+layout: post
+title:  "3D Renders"
+date:   2023-11-27 12:51:00 -0700
+categories: portfolio update
+
+<img 
+	src="../../../As.png" 
+	alt="Adult Swim Project" 
+	title="Rigid body physics project" /> 
+<center><p> Project using rigid body physics and Blender 3D 
+<a href="https://youtu.be/IPh1gfI_ELg">Watch on Youtube</a> </p></center>
+
+<img 
+	src="../../../Scene_1_14.2856507.png" 
+	alt="Unreal Engine 5 Project" 
+	title="UE5 hyperrealism project" />
+<center><p> Project using Unreal Engine 5 and hyperrealism, </p></center>
+
+<img 
+	src="../../../IMG_3608.png" 
+	alt="Gary the Snail Project" 
+	title="Gary the Snail 3D model" />
+<center><p> Everyone's favorite snail under the sea. Made using Blender 3D 
+<a href="https://youtu.be/IPh1gfI_ELg">Watch on Youtube</a></p></center>
+		
+<img 
+	src="../../../pochita.png" 
+	alt="Pochita Project" 
+	title="Pochita 3D model" />
+<center><p> From the anime "Chainsaw Man", meet Pochita! Made using Blende 3D 
+<a href="https://youtu.be/IPh1gfI_ELg">Watch on Youtube</a> </p></center>
+
+<center><img 
+	src="../../../josuke_duck.png" 
+	alt="Josuke x Quaxly" 
+	title="Quaxly 3D model" 
+	width = "370"
+	height = "600" />
+<center><p> New pokemon Quaxly reminds me of a certain anime protaganist. See the bizzare mashup: 
+<a href="https://youtu.be/IPh1gfI_ELg">Watch on Youtube</a> </p></center>
+
+<center><img 
+	src="../../../IMG_4289.jpg" 
+	alt="Chao project" 
+	title="Chao 3D model" 
+	width = "370"
+	height = "600" />
+<center><p> From the old-school Sonic Adventure games, check out this Chao! 
+<a href="https://youtu.be/IPh1gfI_ELg">Watch on Youtube</a> </p></center>

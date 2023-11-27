@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-11-27T13:01:35-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">My Portfolio</title><subtitle>Hi my name is Christian Neff, I have a lot of unique hobbies I&apos;ve acquired through the years.  To name a few: crocheting, 3d animation &amp; video production, video/disc jockeying, music production,  and homelab network projects. </subtitle><entry><title type="html">Portfolio Is Live</title><link href="http://localhost:4000/2023/11/27/portfolio-is-live.html" rel="alternate" type="text/html" title="Portfolio Is Live" /><published>2023-11-27T00:00:00-07:00</published><updated>2023-11-27T00:00:00-07:00</updated><id>http://localhost:4000/2023/11/27/portfolio-is-live</id><content type="html" xml:base="http://localhost:4000/2023/11/27/portfolio-is-live.html">&lt;hr /&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-11-27T13:44:10-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">My Portfolio</title><subtitle>Hi my name is Christian Neff, I have a lot of unique hobbies I&apos;ve acquired through the years.  To name a few: crocheting, 3d animation &amp; video production, video/disc jockeying, music production,  and homelab network projects. </subtitle><entry><title type="html">Portfolio Is Live</title><link href="http://localhost:4000/2023/11/27/portfolio-is-live.html" rel="alternate" type="text/html" title="Portfolio Is Live" /><published>2023-11-27T00:00:00-07:00</published><updated>2023-11-27T00:00:00-07:00</updated><id>http://localhost:4000/2023/11/27/portfolio-is-live</id><content type="html" xml:base="http://localhost:4000/2023/11/27/portfolio-is-live.html">&lt;hr /&gt;
 &lt;p&gt;layout: post
 title:  “Portfolio is live!”
 date:   2023-11-27 12:24:23 -0700
@@ -10,10 +10,32 @@ Let’s see how far I can customize this site for my needs! :)&lt;/p&gt;
 
 &lt;p&gt;If you’re interested in how I made this free site check out: &lt;a href=&quot;https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/about-github-pages-and-jekyll&quot;&gt;Github Docs; Github Pages how to&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;Also check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><summary type="html">layout: post title: “Portfolio is live!” date: 2023-11-27 12:24:23 -0700 categories: site update</summary></entry><entry><title type="html">Blender 3d Renders</title><link href="http://localhost:4000/2023/11/27/blender-3d-renders.html" rel="alternate" type="text/html" title="Blender 3d Renders" /><published>2023-11-27T00:00:00-07:00</published><updated>2023-11-27T00:00:00-07:00</updated><id>http://localhost:4000/2023/11/27/blender-3d-renders</id><content type="html" xml:base="http://localhost:4000/2023/11/27/blender-3d-renders.html">&lt;hr /&gt;
+&lt;p&gt;Also check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><summary type="html">layout: post title: “Portfolio is live!” date: 2023-11-27 12:24:23 -0700 categories: site update</summary></entry><entry><title type="html">3d Renders</title><link href="http://localhost:4000/2023/11/27/3d-renders.html" rel="alternate" type="text/html" title="3d Renders" /><published>2023-11-27T00:00:00-07:00</published><updated>2023-11-27T00:00:00-07:00</updated><id>http://localhost:4000/2023/11/27/3d-renders</id><content type="html" xml:base="http://localhost:4000/2023/11/27/3d-renders.html">&lt;hr /&gt;
 &lt;p&gt;layout: post
-title:  “Blender 3D Renders”
+title:  “3D Renders”
 date:   2023-11-27 12:51:00 -0700
 categories: portfolio update&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;../../../_site/assets/As.png&quot; alt=&quot;Adult Swim Project&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">layout: post title: “Blender 3D Renders” date: 2023-11-27 12:51:00 -0700 categories: portfolio update</summary></entry></feed>
+&lt;p&gt;&lt;img src=&quot;../../../As.png&quot; alt=&quot;Adult Swim Project&quot; title=&quot;Rigid body physics project&quot; /&gt;&lt;/p&gt;
+&lt;center&gt;&lt;p&gt; Project using rigid body physics and Blender 3D 
+&lt;a href=&quot;https://youtu.be/IPh1gfI_ELg&quot;&gt;Watch on Youtube&lt;/a&gt; &lt;/p&gt;&lt;/center&gt;
+
+&lt;p&gt;&lt;img src=&quot;../../../Scene_1_14.2856507.png&quot; alt=&quot;Unreal Engine 5 Project&quot; title=&quot;UE5 hyperrealism project&quot; /&gt;&lt;/p&gt;
+&lt;center&gt;&lt;p&gt; Project using Unreal Engine 5 and hyperrealism, &lt;/p&gt;&lt;/center&gt;
+
+&lt;p&gt;&lt;img src=&quot;../../../IMG_3608.png&quot; alt=&quot;Gary the Snail Project&quot; title=&quot;Gary the Snail 3D model&quot; /&gt;&lt;/p&gt;
+&lt;center&gt;&lt;p&gt; Everyone&apos;s favorite snail under the sea. Made using Blender 3D 
+&lt;a href=&quot;https://youtu.be/IPh1gfI_ELg&quot;&gt;Watch on Youtube&lt;/a&gt;&lt;/p&gt;&lt;/center&gt;
+
+&lt;p&gt;&lt;img src=&quot;../../../pochita.png&quot; alt=&quot;Pochita Project&quot; title=&quot;Pochita 3D model&quot; /&gt;&lt;/p&gt;
+&lt;center&gt;&lt;p&gt; From the anime &quot;Chainsaw Man&quot;, meet Pochita! Made using Blende 3D 
+&lt;a href=&quot;https://youtu.be/IPh1gfI_ELg&quot;&gt;Watch on Youtube&lt;/a&gt; &lt;/p&gt;&lt;/center&gt;
+
+&lt;center&gt;&lt;img src=&quot;../../../josuke_duck.png&quot; alt=&quot;Josuke x Quaxly&quot; title=&quot;Quaxly 3D model&quot; width=&quot;370&quot; height=&quot;600&quot; /&gt;
+&lt;center&gt;&lt;p&gt; New pokemon Quaxly reminds me of a certain anime protaganist. See the bizzare mashup: 
+&lt;a href=&quot;https://youtu.be/IPh1gfI_ELg&quot;&gt;Watch on Youtube&lt;/a&gt; &lt;/p&gt;&lt;/center&gt;
+
+&lt;center&gt;&lt;img src=&quot;../../../IMG_4289.jpg&quot; alt=&quot;Chao project&quot; title=&quot;Chao 3D model&quot; width=&quot;370&quot; height=&quot;600&quot; /&gt;
+&lt;center&gt;&lt;p&gt; From the old-school Sonic Adventure games, check out this Chao! 
+&lt;a href=&quot;https://youtu.be/IPh1gfI_ELg&quot;&gt;Watch on Youtube&lt;/a&gt; &lt;/p&gt;&lt;/center&gt;
+&lt;/center&gt;&lt;/center&gt;</content><author><name></name></author><summary type="html">layout: post title: “3D Renders” date: 2023-11-27 12:51:00 -0700 categories: portfolio update</summary></entry></feed>
