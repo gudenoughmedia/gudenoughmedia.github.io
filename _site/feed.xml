@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-11-27T14:54:45-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">My Portfolio</title><subtitle>Hi my name is Christian Neff, I have a lot of unique hobbies I&apos;ve acquired through the years.  To name a few: crocheting, 3d animation &amp; video production, video/disc jockeying, music production,  and homelab network projects. </subtitle><entry><title type="html">Portfolio Is Live</title><link href="http://localhost:4000/2023/11/27/portfolio-is-live.html" rel="alternate" type="text/html" title="Portfolio Is Live" /><published>2023-11-27T00:00:00-07:00</published><updated>2023-11-27T00:00:00-07:00</updated><id>http://localhost:4000/2023/11/27/portfolio-is-live</id><content type="html" xml:base="http://localhost:4000/2023/11/27/portfolio-is-live.html">&lt;hr /&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-11-27T17:27:48-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">My Portfolio</title><subtitle>Hi my name is Christian Neff, I have a lot of unique hobbies I&apos;ve acquired through the years.  To name a few: crocheting, 3d animation &amp; video production, video/disc jockeying, music production,  and homelab network projects. </subtitle><entry><title type="html">Portfolio Is Live</title><link href="http://localhost:4000/2023/11/27/portfolio-is-live.html" rel="alternate" type="text/html" title="Portfolio Is Live" /><published>2023-11-27T00:00:00-07:00</published><updated>2023-11-27T00:00:00-07:00</updated><id>http://localhost:4000/2023/11/27/portfolio-is-live</id><content type="html" xml:base="http://localhost:4000/2023/11/27/portfolio-is-live.html">&lt;hr /&gt;
 &lt;p&gt;layout: post
 title:  “Portfolio is live!”
 date:   2023-11-27 12:24:23 -0700
@@ -13,31 +13,202 @@ Let’s see how far I can customize this site for my needs! :)&lt;/p&gt;
 &lt;p&gt;Also check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><summary type="html">layout: post title: “Portfolio is live!” date: 2023-11-27 12:24:23 -0700 categories: site update</summary></entry><entry><title type="html">3d Renders</title><link href="http://localhost:4000/2023/11/27/3d-renders.html" rel="alternate" type="text/html" title="3d Renders" /><published>2023-11-27T00:00:00-07:00</published><updated>2023-11-27T00:00:00-07:00</updated><id>http://localhost:4000/2023/11/27/3d-renders</id><content type="html" xml:base="http://localhost:4000/2023/11/27/3d-renders.html">&lt;hr /&gt;
 &lt;p&gt;layout: post
 title:  “3D Renders”
-date:   2023-11-27 12:51:00 -0700
+date:   2023-11-28 12:51:00 -0700
 categories: portfolio update&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;../../../As.png&quot; alt=&quot;Adult Swim Project&quot; title=&quot;Rigid body physics project&quot; /&gt;&lt;/p&gt;
-&lt;center&gt;&lt;p&gt; Project using rigid body physics and Blender 3D 
-&lt;a href=&quot;https://youtu.be/IPh1gfI_ELg&quot;&gt;Watch on Youtube&lt;/a&gt; &lt;/p&gt;&lt;/center&gt;
+&lt;div style=&quot;text-align:center&quot;&gt;
+  &lt;h2&gt;Image Gallery&lt;/h2&gt;
+&lt;/div&gt;
 
-&lt;p&gt;&lt;img src=&quot;../../../Scene_1_14.2856507.png&quot; alt=&quot;Unreal Engine 5 Project&quot; title=&quot;UE5 hyperrealism project&quot; /&gt;&lt;/p&gt;
-&lt;center&gt;&lt;p&gt; Project using Unreal Engine 5 and hyperrealism, &lt;/p&gt;&lt;/center&gt;
-
-&lt;p&gt;&lt;img src=&quot;../../../IMG_3608.PNG&quot; alt=&quot;Gary the Snail Project&quot; title=&quot;Gary the Snail 3D Model&quot; /&gt;&lt;/p&gt;
-&lt;center&gt;&lt;p&gt; Everyone&apos;s favorite snail under the sea. Made using Blender 3D &lt;/p&gt;&lt;/center&gt;
-
-&lt;p&gt;&lt;img src=&quot;../../../pochita.png&quot; alt=&quot;Pochita Project&quot; title=&quot;Pochita 3D model&quot; /&gt;&lt;/p&gt;
-&lt;center&gt;&lt;p&gt; From the anime &quot;Chainsaw Man&quot;, meet Pochita! Made using Blender 3D. &lt;a href=&quot;https://youtu.be/IPh1gfI_ELg&quot;&gt;Watch on Youtube&lt;/a&gt; &lt;/p&gt;&lt;/center&gt;
 &lt;center&gt;&lt;p&gt;Check out the interactive spline model below, left click = orbit, shift + left click = pan. &lt;/p&gt;&lt;/center&gt;
 &lt;script type=&quot;module&quot; src=&quot;https://unpkg.com/@splinetool/viewer@0.9.508/build/spline-viewer.js&quot;&gt;&lt;/script&gt;
 
 &lt;spline-viewer hint=&quot;&quot; loading-anim-type=&quot;spinner-small-dark&quot; url=&quot;https://prod.spline.design/Pha3-cdmZma26m3I/scene.splinecode&quot;&gt;&lt;/spline-viewer&gt;
-&lt;p&gt;&lt;/p&gt;
-&lt;center&gt;&lt;img src=&quot;../../../josuke_duck.png&quot; alt=&quot;Josuke x Quaxly&quot; title=&quot;Quaxly 3D model&quot; width=&quot;370&quot; height=&quot;600&quot; /&gt;
-&lt;center&gt;&lt;p&gt; New pokemon Quaxly reminds me of a certain anime protaganist. See the bizzare mashup: 
+
+&lt;p&gt;Click on the images below to expand them:&lt;/p&gt;
+
+&lt;head&gt;
+&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot; /&gt;
+&lt;style&gt;
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+/* Style the images inside the grid */
+.column img {
+  opacity: 0.8; 
+  cursor: pointer; 
+}
+
+.column img:hover {
+  opacity: 1;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: &quot;&quot;;
+  display: table;
+  clear: both;
+}
+
+/* The expanding image container */
+.container {
+  position: relative;
+  display: none;
+}
+
+/* Expanding image text */
+#imgtext {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  color: white;
+  font-size: 20px;
+}
+
+/* Closable button inside the expanded image */
+.closebtn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+}
+&lt;/style&gt;
+&lt;/head&gt;
+
+&lt;style&gt;
+.grid { 
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 20px;
+  align-items: start;
+  }
+.grid img {
+  border: 1px solid #ccc;
+  box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+  max-width: 100%;
+}
+&lt;/style&gt;
+
+&lt;main class=&quot;grid&quot;&gt;
+	&lt;div class=&quot;column&quot;&gt;
+	  &lt;img src=&quot;../../../As.png&quot; alt=&quot;Adult Swim Project&quot; title=&quot;Rigid body physics project&quot; style=&quot;width:100%&quot; onclick=&quot;myFunction(this);&quot; /&gt; 
+	&lt;center&gt;&lt;p&gt; Project using rigid body physics and Blender 3D&lt;br /&gt;
+	&lt;a href=&quot;https://youtu.be/XiytOGEyof4&quot;&gt;Watch on Youtube&lt;/a&gt; &lt;/p&gt;&lt;/center&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;column&quot;&gt;
+	  &lt;img src=&quot;../../../Scene_1_14.2856507.png&quot; alt=&quot;Unreal Engine 5 Project&quot; title=&quot;UE5 hyperrealism project&quot; style=&quot;width:100%&quot; onclick=&quot;myFunction(this);&quot; /&gt;
+	&lt;center&gt;&lt;p&gt; Project using Unreal Engine 5 and hyperrealism,&lt;br /&gt;
+	&lt;a href=&quot;https://youtu.be/IPh1gfI_ELg&quot;&gt;Watch on Youtube&lt;/a&gt; &lt;/p&gt;&lt;/center&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;column&quot;&gt;
+		&lt;img src=&quot;../../../IMG_3608.PNG&quot; alt=&quot;Gary the Snail Project&quot; title=&quot;Gary the Snail 3D Model&quot; style=&quot;width:100%&quot; onclick=&quot;myFunction(this);&quot; /&gt;
+		&lt;center&gt;&lt;p&gt; Everyone&apos;s favorite snail under the sea. Made using Blender 3D&lt;br /&gt;
+		&lt;a href=&quot;https://youtu.be/AjWMDOmRDCM&quot;&gt;Watch on Youtube&lt;/a&gt; &lt;/p&gt;&lt;/center&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;column&quot;&gt;
+		&lt;img src=&quot;../../../pochita.png&quot; alt=&quot;Pochita Project&quot; title=&quot;Pochita 3D model&quot; style=&quot;width:100%&quot; onclick=&quot;myFunction(this);&quot; /&gt;
+		&lt;center&gt;&lt;p&gt; From the anime &quot;Chainsaw Man&quot;, meet Pochita! Made using Blender 3D.&lt;br /&gt;
+		&lt;a href=&quot;https://youtu.be/bXE-1yHpDj0&quot;&gt;Watch on Youtube&lt;/a&gt; &lt;/p&gt;&lt;/center&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;column&quot;&gt;
+		&lt;img src=&quot;../../../josuke_duck.png&quot; alt=&quot;Josuke x Quaxly&quot; title=&quot;Quaxly 3D model&quot; style=&quot;width:100%&quot; onclick=&quot;myFunction(this);&quot; /&gt;
+	&lt;center&gt;&lt;p&gt; New pokemon Quaxly reminds me of a certain anime protaganist. See the bizzare mashup:&lt;br /&gt;
+	&lt;a href=&quot;https://youtube.com/shorts/OrEJMWsSIxU&quot;&gt;Watch him dance on Youtube&lt;/a&gt; &lt;/p&gt;&lt;/center&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;column&quot;&gt;
+		&lt;img src=&quot;../../../IMG_4289.jpg&quot; alt=&quot;Chao project&quot; title=&quot;Chao 3D model&quot; style=&quot;width:100%&quot; onclick=&quot;myFunction(this);&quot; /&gt;
+	&lt;center&gt;&lt;p&gt; From the old-school Sonic Adventure games, check out this Chao!&lt;br /&gt;
+	&lt;a href=&quot;https://youtube.com/shorts/OqLNxltQJgI&quot;&gt;Watch on Youtube&lt;/a&gt; &lt;/p&gt;&lt;/center&gt;
+	&lt;/div&gt;
+&lt;/main&gt;
+
+&lt;div class=&quot;container&quot;&gt;
+  &lt;span onclick=&quot;this.parentElement.style.display=&apos;none&apos;&quot; class=&quot;closebtn&quot;&gt;&amp;times;&lt;/span&gt;
+  &lt;img id=&quot;expandedImg&quot; style=&quot;width:100%&quot; /&gt;
+  &lt;div id=&quot;imgtext&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+function myFunction(imgs) {
+  var expandImg = document.getElementById(&quot;expandedImg&quot;);
+  var imgText = document.getElementById(&quot;imgtext&quot;);
+  expandImg.src = imgs.src;
+  imgText.innerHTML = imgs.alt;
+  expandImg.parentElement.style.display = &quot;block&quot;;
+}
+&lt;/script&gt;
+
+&lt;!-- &lt;img 
+	src=&quot;../../../As.png&quot; 
+	alt=&quot;Adult Swim Project&quot; 
+	title=&quot;Rigid body physics project&quot; 
+	style=&quot;width:100%&quot;
+	onclick=&quot;myFunction(this);&quot; /&gt; 
+&lt;center&gt;&lt;p&gt; Project using rigid body physics and Blender 3D&lt;br&gt;
 &lt;a href=&quot;https://youtu.be/IPh1gfI_ELg&quot;&gt;Watch on Youtube&lt;/a&gt; &lt;/p&gt;&lt;/center&gt;
 
-&lt;center&gt;&lt;img src=&quot;../../../IMG_4289.jpg&quot; alt=&quot;Chao project&quot; title=&quot;Chao 3D model&quot; width=&quot;370&quot; height=&quot;600&quot; /&gt;
-&lt;center&gt;&lt;p&gt; From the old-school Sonic Adventure games, check out this Chao! 
+&lt;img 
+	src=&quot;../../../Scene_1_14.2856507.png&quot; 
+	alt=&quot;Unreal Engine 5 Project&quot; 
+	title=&quot;UE5 hyperrealism project&quot; 
+	style=&quot;width:100%&quot;
+	onclick=&quot;myFunction(this);&quot; /&gt;
+&lt;center&gt;&lt;p&gt; Project using Unreal Engine 5 and hyperrealism,&lt;br&gt;
 &lt;a href=&quot;https://youtu.be/IPh1gfI_ELg&quot;&gt;Watch on Youtube&lt;/a&gt; &lt;/p&gt;&lt;/center&gt;
-&lt;/center&gt;&lt;/center&gt;</content><author><name></name></author><summary type="html">layout: post title: “3D Renders” date: 2023-11-27 12:51:00 -0700 categories: portfolio update</summary></entry></feed>
+
+
+&lt;img 
+	src=&quot;../../../IMG_3608.PNG&quot; 
+	alt=&quot;Gary the Snail Project&quot; 
+	title=&quot;Gary the Snail 3D Model&quot; 
+	style=&quot;width:100%&quot;
+	onclick=&quot;myFunction(this);&quot; /&gt;
+&lt;center&gt;&lt;p&gt; Everyone&apos;s favorite snail under the sea. Made using Blender 3D&lt;br&gt;
+&lt;a href=&quot;https://youtu.be/IPh1gfI_ELg&quot;&gt;Watch on Youtube&lt;/a&gt; &lt;/p&gt;&lt;/center&gt;
+
+&lt;img 
+	src=&quot;../../../pochita.png&quot; 
+	alt=&quot;Pochita Project&quot; 
+	title=&quot;Pochita 3D model&quot; 
+	style=&quot;width:100%&quot;
+	onclick=&quot;myFunction(this);&quot; /&gt;
+&lt;center&gt;&lt;p&gt; From the anime &quot;Chainsaw Man&quot;, meet Pochita! Made using Blender 3D.&lt;br&gt;
+&lt;a href=&quot;https://youtu.be/bXE-1yHpDj0&quot;&gt;Watch on Youtube&lt;/a&gt; &lt;/p&gt;&lt;/center&gt;
+&lt;center&gt;&lt;p&gt;Check out the interactive spline model below, left click = orbit, shift + left click = pan. &lt;/p&gt;&lt;/center&gt;
+&lt;script type=&quot;module&quot; src=&quot;https://unpkg.com/@splinetool/viewer@0.9.508/build/spline-viewer.js&quot;&gt;&lt;/script&gt;
+&lt;spline-viewer hint loading-anim-type=&quot;spinner-small-dark&quot; url=&quot;https://prod.spline.design/Pha3-cdmZma26m3I/scene.splinecode&quot;&gt;&lt;/spline-viewer&gt;
+&lt;p&gt;&lt;/p&gt;
+
+&lt;center&gt;&lt;img 
+	src=&quot;../../../josuke_duck.png&quot; 
+	alt=&quot;Josuke x Quaxly&quot; 
+	title=&quot;Quaxly 3D model&quot; 
+	width = &quot;370&quot;
+	height = &quot;600&quot; 
+	style=&quot;width:100%&quot;
+	onclick=&quot;myFunction(this);&quot; /&gt;
+&lt;center&gt;&lt;p&gt; New pokemon Quaxly reminds me of a certain anime protaganist. See the bizzare mashup:&lt;br&gt;
+&lt;a href=&quot;https://youtu.be/IPh1gfI_ELg&quot;&gt;Watch him dance on Youtube&lt;/a&gt; &lt;/p&gt;&lt;/center&gt;
+
+&lt;center&gt;&lt;img 
+	src=&quot;../../../IMG_4289.jpg&quot; 
+	alt=&quot;Chao project&quot; 
+	title=&quot;Chao 3D model&quot; 
+	width = &quot;370&quot;
+	height = &quot;600&quot; 
+	style=&quot;width:100%&quot;
+	onclick=&quot;myFunction(this);&quot; /&gt;
+&lt;center&gt;&lt;p&gt; From the old-school Sonic Adventure games, check out this Chao!&lt;br&gt;
+&lt;a href=&quot;https://youtube.com/shorts/OqLNxltQJgI&quot;&gt;Watch on Youtube&lt;/a&gt; &lt;/p&gt;&lt;/center&gt; --&gt;</content><author><name></name></author><summary type="html">layout: post title: “3D Renders” date: 2023-11-28 12:51:00 -0700 categories: portfolio update</summary></entry><entry><title type="html">Crochet Projects</title><link href="http://localhost:4000/2023/11/27/crochet-projects.html" rel="alternate" type="text/html" title="Crochet Projects" /><published>2023-11-27T00:00:00-07:00</published><updated>2023-11-27T00:00:00-07:00</updated><id>http://localhost:4000/2023/11/27/crochet-projects</id><content type="html" xml:base="http://localhost:4000/2023/11/27/crochet-projects.html">&lt;hr /&gt;
+&lt;p&gt;layout: post
+title:  “Crocheting”
+date:   2023-11-27 12:24:23 -0700
+categories: portfolio hobby&lt;/p&gt;</content><author><name></name></author><summary type="html">layout: post title: “Crocheting” date: 2023-11-27 12:24:23 -0700 categories: portfolio hobby</summary></entry></feed>

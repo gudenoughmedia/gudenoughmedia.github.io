@@ -1,51 +1,226 @@
 ---
 layout: post
 title:  "3D Renders"
-date:   2023-11-27 12:51:00 -0700
+date:   2023-11-28 12:51:00 -0700
 categories: portfolio update
 
-<img 
+<div style="text-align:center">
+  <h2>Image Gallery</h2>
+</div>
+
+<center><p>Check out the interactive spline model below, left click = orbit, shift + left click = pan. </p></center>
+<script type="module" src="https://unpkg.com/@splinetool/viewer@0.9.508/build/spline-viewer.js"></script>
+<spline-viewer hint loading-anim-type="spinner-small-dark" url="https://prod.spline.design/Pha3-cdmZma26m3I/scene.splinecode"></spline-viewer>
+
+<p>Click on the images below to expand them:</p>
+
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+/* Style the images inside the grid */
+.column img {
+  opacity: 0.8; 
+  cursor: pointer; 
+}
+
+.column img:hover {
+  opacity: 1;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* The expanding image container */
+.container {
+  position: relative;
+  display: none;
+}
+
+/* Expanding image text */
+#imgtext {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  color: white;
+  font-size: 20px;
+}
+
+/* Closable button inside the expanded image */
+.closebtn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+}
+</style>
+</head>
+
+<style>
+.grid { 
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 20px;
+  align-items: start;
+  }
+.grid img {
+  border: 1px solid #ccc;
+  box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+  max-width: 100%;
+}
+</style>
+<main class="grid">
+	<div class="column">
+	  <img 
+		src="../../../As.png" 
+		alt="Adult Swim Project" 
+		title="Rigid body physics project" 
+		style="width:100%"
+		onclick="myFunction(this);" /> 
+	<center><p> Project using rigid body physics and Blender 3D<br>
+	<a href="https://youtu.be/XiytOGEyof4">Watch on Youtube</a> </p></center>
+	</div>
+	<div class="column">
+	  <img 
+		src="../../../Scene_1_14.2856507.png" 
+		alt="Unreal Engine 5 Project" 
+		title="UE5 hyperrealism project" 
+		style="width:100%"
+		onclick="myFunction(this);" />
+	<center><p> Project using Unreal Engine 5 and hyperrealism,<br>
+	<a href="https://youtu.be/IPh1gfI_ELg">Watch on Youtube</a> </p></center>
+	</div>
+	<div class="column">
+		<img 
+		src="../../../IMG_3608.PNG" 
+		alt="Gary the Snail Project" 
+		title="Gary the Snail 3D Model" 
+		style="width:100%"
+		onclick="myFunction(this);" />
+		<center><p> Everyone's favorite snail under the sea. Made using Blender 3D<br>
+		<a href="https://youtu.be/AjWMDOmRDCM">Watch on Youtube</a> </p></center>
+	</div>
+	<div class="column">
+		<img 
+		src="../../../pochita.png" 
+		alt="Pochita Project" 
+		title="Pochita 3D model" 
+		style="width:100%"
+		onclick="myFunction(this);" />
+		<center><p> From the anime "Chainsaw Man", meet Pochita! Made using Blender 3D.<br>
+		<a href="https://youtu.be/bXE-1yHpDj0">Watch on Youtube</a> </p></center>
+	</div>
+	<div class="column">
+		<img 
+	src="../../../josuke_duck.png" 
+	alt="Josuke x Quaxly" 
+	title="Quaxly 3D model"
+	style="width:100%"
+	onclick="myFunction(this);" />
+	<center><p> New pokemon Quaxly reminds me of a certain anime protaganist. See the bizzare mashup:<br>
+	<a href="https://youtube.com/shorts/OrEJMWsSIxU">Watch him dance on Youtube</a> </p></center>
+	</div>
+	<div class="column">
+		<img 
+	src="../../../IMG_4289.jpg" 
+	alt="Chao project" 
+	title="Chao 3D model" 
+	style="width:100%"
+	onclick="myFunction(this);" />
+	<center><p> From the old-school Sonic Adventure games, check out this Chao!<br>
+	<a href="https://youtube.com/shorts/OqLNxltQJgI">Watch on Youtube</a> </p></center>
+	</div>
+</main>
+
+<div class="container">
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+  <img id="expandedImg" style="width:100%">
+  <div id="imgtext"></div>
+</div>
+
+<script>
+function myFunction(imgs) {
+  var expandImg = document.getElementById("expandedImg");
+  var imgText = document.getElementById("imgtext");
+  expandImg.src = imgs.src;
+  imgText.innerHTML = imgs.alt;
+  expandImg.parentElement.style.display = "block";
+}
+</script>
+
+<!-- <img 
 	src="../../../As.png" 
 	alt="Adult Swim Project" 
-	title="Rigid body physics project" /> 
-<center><p> Project using rigid body physics and Blender 3D 
+	title="Rigid body physics project" 
+	style="width:100%"
+	onclick="myFunction(this);" /> 
+<center><p> Project using rigid body physics and Blender 3D<br>
 <a href="https://youtu.be/IPh1gfI_ELg">Watch on Youtube</a> </p></center>
 
 <img 
 	src="../../../Scene_1_14.2856507.png" 
 	alt="Unreal Engine 5 Project" 
-	title="UE5 hyperrealism project" />
-<center><p> Project using Unreal Engine 5 and hyperrealism, </p></center>
+	title="UE5 hyperrealism project" 
+	style="width:100%"
+	onclick="myFunction(this);" />
+<center><p> Project using Unreal Engine 5 and hyperrealism,<br>
+<a href="https://youtu.be/IPh1gfI_ELg">Watch on Youtube</a> </p></center>
+
 
 <img 
 	src="../../../IMG_3608.PNG" 
 	alt="Gary the Snail Project" 
-	title="Gary the Snail 3D Model" />
-<center><p> Everyone's favorite snail under the sea. Made using Blender 3D </p></center>
+	title="Gary the Snail 3D Model" 
+	style="width:100%"
+	onclick="myFunction(this);" />
+<center><p> Everyone's favorite snail under the sea. Made using Blender 3D<br>
+<a href="https://youtu.be/IPh1gfI_ELg">Watch on Youtube</a> </p></center>
 
 <img 
 	src="../../../pochita.png" 
 	alt="Pochita Project" 
-	title="Pochita 3D model" />
-<center><p> From the anime "Chainsaw Man", meet Pochita! Made using Blender 3D. <a href="https://youtu.be/IPh1gfI_ELg">Watch on Youtube</a> </p></center>
+	title="Pochita 3D model" 
+	style="width:100%"
+	onclick="myFunction(this);" />
+<center><p> From the anime "Chainsaw Man", meet Pochita! Made using Blender 3D.<br>
+<a href="https://youtu.be/bXE-1yHpDj0">Watch on Youtube</a> </p></center>
 <center><p>Check out the interactive spline model below, left click = orbit, shift + left click = pan. </p></center>
 <script type="module" src="https://unpkg.com/@splinetool/viewer@0.9.508/build/spline-viewer.js"></script>
 <spline-viewer hint loading-anim-type="spinner-small-dark" url="https://prod.spline.design/Pha3-cdmZma26m3I/scene.splinecode"></spline-viewer>
 <p></p>
+
 <center><img 
 	src="../../../josuke_duck.png" 
 	alt="Josuke x Quaxly" 
 	title="Quaxly 3D model" 
 	width = "370"
-	height = "600" />
-<center><p> New pokemon Quaxly reminds me of a certain anime protaganist. See the bizzare mashup: 
-<a href="https://youtu.be/IPh1gfI_ELg">Watch on Youtube</a> </p></center>
+	height = "600" 
+	style="width:100%"
+	onclick="myFunction(this);" />
+<center><p> New pokemon Quaxly reminds me of a certain anime protaganist. See the bizzare mashup:<br>
+<a href="https://youtu.be/IPh1gfI_ELg">Watch him dance on Youtube</a> </p></center>
 
 <center><img 
 	src="../../../IMG_4289.jpg" 
 	alt="Chao project" 
 	title="Chao 3D model" 
 	width = "370"
-	height = "600" />
-<center><p> From the old-school Sonic Adventure games, check out this Chao! 
-<a href="https://youtu.be/IPh1gfI_ELg">Watch on Youtube</a> </p></center>
+	height = "600" 
+	style="width:100%"
+	onclick="myFunction(this);" />
+<center><p> From the old-school Sonic Adventure games, check out this Chao!<br>
+<a href="https://youtube.com/shorts/OqLNxltQJgI">Watch on Youtube</a> </p></center> -->
