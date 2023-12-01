@@ -8,4 +8,13 @@ categories: site update
 <p>I did not understand as much about computers/networking as I do now so I wanted to re-attempt. 
 I found an opensource project called Azerothcore and started my project.
 It turned out to be a great learning exercise utilizing MySQL, C-Make, VS Studio C++ compiling, docker, and proxy forwarding. </p>
-The end result was a server I could run on my laptop and play from anywhere, even utilizing a forked branch of the main respository that has a module for simulating players using bots based off real player-data.
+<p>The end result was a server I could run on my laptop and play from anywhere, even utilizing a forked branch of the main respository that has a module for simulating players using bots based off real player-data. Check out the pics below: </p>
+<img 
+	src="../../../azerthcre.png" 
+	alt="Azerothcore booting up" 
+	title="Servers booting up" />
+	
+<img 
+	src="../../../wow_bots.png" 
+	alt="WoW playerbots" 
+	title="WoW playerbots" />
