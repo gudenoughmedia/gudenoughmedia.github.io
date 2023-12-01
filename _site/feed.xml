@@ -1,14 +1,40 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-11-27T18:14:48-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">My Portfolio</title><subtitle>Hi my name is Christian Neff, I have a lot of unique hobbies I&apos;ve acquired through the years.  To name a few: crocheting, 3d animation &amp; video production, video/disc jockeying, music production,  and homelab network projects. </subtitle><entry><title type="html">Wow Private Server</title><link href="http://localhost:4000/2023/11/27/wow-private-server.html" rel="alternate" type="text/html" title="Wow Private Server" /><published>2023-11-27T00:00:00-07:00</published><updated>2023-11-27T00:00:00-07:00</updated><id>http://localhost:4000/2023/11/27/wow-private-server</id><content type="html" xml:base="http://localhost:4000/2023/11/27/wow-private-server.html">&lt;hr /&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-11-30T21:09:05-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">My Portfolio</title><subtitle>Hi my name is Christian Neff, I have a lot of unique hobbies I&apos;ve acquired through the years.  To name a few: crocheting, 3d animation &amp; video production, video/disc jockeying, music production,  and homelab network projects. </subtitle><entry><title type="html">Plex Media Server On Docker</title><link href="http://localhost:4000/2023/11/30/plex-media-server-on-docker.html" rel="alternate" type="text/html" title="Plex Media Server On Docker" /><published>2023-11-30T00:00:00-07:00</published><updated>2023-11-30T00:00:00-07:00</updated><id>http://localhost:4000/2023/11/30/plex-media-server-on-docker</id><content type="html" xml:base="http://localhost:4000/2023/11/30/plex-media-server-on-docker.html">&lt;hr /&gt;
 &lt;p&gt;layout: post
-title:  “World of Warcraft private server - Azerothcore”
-date:   2023-11-27 17:02:00 -0700
-categories: site update&lt;/p&gt;
+title:  “Plex server on docker”
+date:   2023-11-30 20:54:23 -0700
+categories: portfolio update&lt;/p&gt;
 
-&lt;p&gt;About a decade ago when the Wrath of the Litch expansion released I had started up a private server on my very first computer. &lt;/p&gt;
-&lt;p&gt;I did not understand as much about computers/networking as I do now so I wanted to re-attempt. 
-I found an opensource project called Azerothcore and started my project.
-It turned out to be a great learning exercise utilizing MySQL, C-Make, VS Studio C++ compiling, docker, and proxy forwarding. &lt;/p&gt;
-&lt;p&gt;The end result was a server I could run on my laptop and play from anywhere, even utilizing a forked branch of the main respository that has a module for simulating players using bots based off real player-data.&lt;/p&gt;</content><author><name></name></author><summary type="html">layout: post title: “World of Warcraft private server - Azerothcore” date: 2023-11-27 17:02:00 -0700 categories: site update</summary></entry><entry><title type="html">3d Renders</title><link href="http://localhost:4000/2023/11/27/3d-renders.html" rel="alternate" type="text/html" title="3d Renders" /><published>2023-11-27T00:00:00-07:00</published><updated>2023-11-27T00:00:00-07:00</updated><id>http://localhost:4000/2023/11/27/3d-renders</id><content type="html" xml:base="http://localhost:4000/2023/11/27/3d-renders.html">&lt;hr /&gt;
+&lt;p&gt;Recently restarted my plex server project. In the past I had tried to host one on a raspberry pi 4b with varying levels of success due to sd card corrution. That pi is currently a retro gaming station running off usb instead. 
+After configuring a wireless bridge with an old router I finally had internet for my old computer server project (8th gen i7). I was determined to run this plex server through a docker-compose.yml file instead of 
+the command line CLI scripts I had used in the past. After a few hours and some difficulties the plex server is up and integrated with Overseerr, Radarr, Sonarr, Jackett and Transmission.  It was a fun project and
+the result is a fully automated media server and a good way to finally learn docker-compose. I&apos;ve included some pics of my docker-compose setup for anyone curious:&lt;/p&gt;
+
+&lt;head&gt;
+&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot; /&gt;
+&lt;style&gt;
+div.scroll-container {
+  background-color: #333;
+  overflow: auto;
+  white-space: nowrap;
+  padding: 10px;
+}
+
+div.scroll-container img {
+  padding: 10px;
+}
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+
+&lt;h3&gt;Use the horizontal scrollbar to see the other images.&lt;/h3&gt;
+
+&lt;div class=&quot;scroll-container&quot;&gt;
+  &lt;img src=&quot;../../../docker1.png&quot; alt=&quot;docker-compose pt.1&quot; /&gt;
+  &lt;img src=&quot;../../../docker1.png&quot; alt=&quot;docker-compose pt.2&quot; /&gt;
+  &lt;img src=&quot;../../../docker1.png&quot; alt=&quot;docker-compose pt.3&quot; /&gt;
+  &lt;img src=&quot;../../../dockerps.png&quot; alt=&quot;docker containers running&quot; /&gt;
+&lt;/div&gt;
+&lt;/body&gt;</content><author><name></name></author><summary type="html">layout: post title: “Plex server on docker” date: 2023-11-30 20:54:23 -0700 categories: portfolio update</summary></entry><entry><title type="html">3d Renders</title><link href="http://localhost:4000/2023/11/27/3d-renders.html" rel="alternate" type="text/html" title="3d Renders" /><published>2023-11-27T00:00:00-07:00</published><updated>2023-11-27T00:00:00-07:00</updated><id>http://localhost:4000/2023/11/27/3d-renders</id><content type="html" xml:base="http://localhost:4000/2023/11/27/3d-renders.html">&lt;hr /&gt;
 &lt;p&gt;layout: post
 title:  “3D Renders”
 date:   2023-11-27 12:51:00 -0700
@@ -323,4 +349,14 @@ Let’s see how far I can customize this site for my needs! :)&lt;/p&gt;
 
 &lt;p&gt;If you’re interested in how I made this free site check out: &lt;a href=&quot;https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/about-github-pages-and-jekyll&quot;&gt;Github Docs; Github Pages how to&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;Also check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><summary type="html">layout: post title: “Portfolio is live!” date: 2023-11-27 12:24:23 -0700 categories: site update</summary></entry></feed>
+&lt;p&gt;Also check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><summary type="html">layout: post title: “Portfolio is live!” date: 2023-11-27 12:24:23 -0700 categories: site update</summary></entry><entry><title type="html">Wow Private Server</title><link href="http://localhost:4000/2023/11/27/wow-private-server.html" rel="alternate" type="text/html" title="Wow Private Server" /><published>2023-11-27T00:00:00-07:00</published><updated>2023-11-27T00:00:00-07:00</updated><id>http://localhost:4000/2023/11/27/wow-private-server</id><content type="html" xml:base="http://localhost:4000/2023/11/27/wow-private-server.html">&lt;hr /&gt;
+&lt;p&gt;layout: post
+title:  “World of Warcraft private server - Azerothcore”
+date:   2023-11-27 17:02:00 -0700
+categories: site update&lt;/p&gt;
+
+&lt;p&gt;About a decade ago when the Wrath of the Litch expansion released I had started up a private server on my very first computer. &lt;/p&gt;
+&lt;p&gt;I did not understand as much about computers/networking as I do now so I wanted to re-attempt. 
+I found an opensource project called Azerothcore and started my project.
+It turned out to be a great learning exercise utilizing MySQL, C-Make, VS Studio C++ compiling, docker, and proxy forwarding. &lt;/p&gt;
+&lt;p&gt;The end result was a server I could run on my laptop and play from anywhere, even utilizing a forked branch of the main respository that has a module for simulating players using bots based off real player-data.&lt;/p&gt;</content><author><name></name></author><summary type="html">layout: post title: “World of Warcraft private server - Azerothcore” date: 2023-11-27 17:02:00 -0700 categories: site update</summary></entry></feed>
