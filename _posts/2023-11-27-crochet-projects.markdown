@@ -75,7 +75,8 @@ body {
 <div style="text-align:left">
   <p>My crochet journey started in June of 2023 with a shark kit from woobles. They had video guides that were very helpful and
   after finishing my first project I was hooked.
-  <p>Enjoy my projects below, and reach out to me for any questions on comissions. </p>
+  <p>Enjoy my projects below, and reach out to me for any questions on comissions. <br>
+  <small>click on the images below to expand them</small>
 
 <!-- The four columns -->
 <div class="row">
