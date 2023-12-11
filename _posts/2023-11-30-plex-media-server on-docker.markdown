@@ -2,7 +2,7 @@
 layout: post
 title:  "Plex server on docker"
 date:   2023-11-30 20:54:23 -0700
-categories: portfolio update
+categories: portfolio update projects
 
 <p>Recently restarted my plex server project. In the past I had tried to host one on a raspberry pi 4b with varying levels of success due to sd card corrution. That pi is currently a retro gaming station running off usb instead. 
 After configuring a wireless bridge with an old router I finally had internet for my old computer server project (8th gen i7). I was determined to run this plex server through a docker-compose.yml file instead of 
@@ -29,8 +29,8 @@ div.scroll-container img {
 <h3>Use the horizontal scrollbar to see the other images.</h3>
 
 <div class="scroll-container">
-  <img src="../../../docker1.png" alt="docker-compose pt.1" >
-  <img src="../../../docker1.png" alt="docker-compose pt.2" >
-  <img src="../../../docker1.png" alt="docker-compose pt.3" >
-  <img src="../../../dockerps.png" alt="docker containers running" >
+  <img src="../../../Images/docker1.png" alt="docker-compose pt.1" >
+  <img src="../../../Images/docker1.png" alt="docker-compose pt.2" >
+  <img src="../../../Images/docker1.png" alt="docker-compose pt.3" >
+  <img src="../../../Images/dockerps.png" alt="docker containers running" >
 </div>

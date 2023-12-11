@@ -2,7 +2,7 @@
 layout: post
 title:  "Crocheting"
 date:   2023-11-27 13:20:23 -0700
-categories: portfolio hobby
+categories: portfolio updates hobby
 
 
 <head>
@@ -81,13 +81,13 @@ body {
 <!-- The four columns -->
 <div class="row">
   <div class="column">
-    <img src="../../../c_collection.jpeg" alt="Most of the collection" style="width:100%" onclick="myFunction(this);">
+    <img src="../../../Images/c_collection.jpeg" alt="Most of the collection" style="width:100%" onclick="myFunction(this);">
   </div>
   <div class="column">
-    <img src="../../../c_mimics.jpg" alt="Functional mimic chests" style="width:100%" onclick="myFunction(this);">
+    <img src="../../../Images/c_mimics.jpg" alt="Functional mimic chests" style="width:100%" onclick="myFunction(this);">
   </div>
   <div class="column">
-    <img src="../../../c_shark.png" alt="First crochet project" style="width:100%" onclick="myFunction(this);">
+    <img src="../../../Images/c_shark.png" alt="First crochet project" style="width:100%" onclick="myFunction(this);">
   </div>
 </div>
 

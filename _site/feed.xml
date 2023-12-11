@@ -1,8 +1,28 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-11-30T21:25:37-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">My Portfolio</title><subtitle>Hi my name is Christian Neff, I have a lot of unique hobbies I&apos;ve acquired through the years.  To name a few: crocheting, 3d animation &amp; video production, video/disc jockeying, music production,  and homelab network projects. </subtitle><entry><title type="html">Plex Media Server On Docker</title><link href="http://localhost:4000/2023/11/30/plex-media-server-on-docker.html" rel="alternate" type="text/html" title="Plex Media Server On Docker" /><published>2023-11-30T00:00:00-07:00</published><updated>2023-11-30T00:00:00-07:00</updated><id>http://localhost:4000/2023/11/30/plex-media-server-on-docker</id><content type="html" xml:base="http://localhost:4000/2023/11/30/plex-media-server-on-docker.html">&lt;hr /&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-12-11T16:35:54-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Home</title><subtitle>Hi my name is Christian Neff, I have a lot of unique hobbies I&apos;ve acquired through the years.  To name a few: crocheting, 3d animation &amp; video production, video/disc jockeying, music production,  and homelab network projects. </subtitle><entry><title type="html">Homelab Setup</title><link href="http://localhost:4000/2023/12/11/homelab-setup.html" rel="alternate" type="text/html" title="Homelab Setup" /><published>2023-12-11T00:00:00-07:00</published><updated>2023-12-11T00:00:00-07:00</updated><id>http://localhost:4000/2023/12/11/homelab-setup</id><content type="html" xml:base="http://localhost:4000/2023/12/11/homelab-setup.html">&lt;hr /&gt;
+&lt;p&gt;layout: post
+title:  “Portfolio is live!”
+date:   2023-12-11 16:08:00 -0700
+categories: portfolio update projects&lt;/p&gt;
+
+&lt;p&gt;Sharing a pic of my current homelab setup. &lt;br /&gt;
+	&lt;br /&gt;
+
+	Pictured below: &lt;br /&gt;
+	Netgear r6300 v2 as a wireless bridge &lt;br /&gt;
+	Raspberry Pi 4b running Retropie emulator OS &amp;amp; Samba NAS storage &lt;br /&gt;
+	Intel i7-6500k w/ 16gb ddr4 ram server running Ubuntu - runs plex, overseerr, radarr, sonarr, jackett, and transmission through docker-compose. See page on it &lt;a href=&quot;https://gudenoughmedia.github.io/2023/11/30/plex-media-server-on-docker.html&quot;&gt;here&lt;/a&gt;. &lt;br /&gt;
+	&lt;br /&gt;
+	Not seen: &lt;br /&gt;
+	i7-8550U laptop w/ 12gb ram running WoW private server w/ mySQL, cmake, and proxy forwarding. Also used for music production w/ Ableton Live 10 &amp;amp; audiovisual work w/ Resolume Arena. See page on it &lt;a href=&quot;https://gudenoughmedia.github.io/2023/11/27/wow-private-server.html&quot;&gt;here&lt;/a&gt;. &lt;br /&gt;
+	Main workstation: Ryzen 9 5900X, 64GB 3600MHz ddr4, GTX 1660 Ti - Used for 3d animation/modeling, Unreal Engine 5 game development, video editing w/ DaVinci Resolve. 
+
+&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../../../Images/homelab.jpg&quot; alt=&quot;Homelab setup&quot; title=&quot;My Homelab setup&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">layout: post title: “Portfolio is live!” date: 2023-12-11 16:08:00 -0700 categories: portfolio update projects</summary></entry><entry><title type="html">Plex Media Server on Docker</title><link href="http://localhost:4000/2023/11/30/plex-media-server-on-docker.html" rel="alternate" type="text/html" title="Plex Media Server on Docker" /><published>2023-11-30T00:00:00-07:00</published><updated>2023-11-30T00:00:00-07:00</updated><id>http://localhost:4000/2023/11/30/plex-media-server%20on-docker</id><content type="html" xml:base="http://localhost:4000/2023/11/30/plex-media-server-on-docker.html">&lt;hr /&gt;
 &lt;p&gt;layout: post
 title:  “Plex server on docker”
 date:   2023-11-30 20:54:23 -0700
-categories: portfolio update&lt;/p&gt;
+categories: portfolio update projects&lt;/p&gt;
 
 &lt;p&gt;Recently restarted my plex server project. In the past I had tried to host one on a raspberry pi 4b with varying levels of success due to sd card corrution. That pi is currently a retro gaming station running off usb instead. 
 After configuring a wireless bridge with an old router I finally had internet for my old computer server project (8th gen i7). I was determined to run this plex server through a docker-compose.yml file instead of 
@@ -29,16 +49,16 @@ div.scroll-container img {
 &lt;h3&gt;Use the horizontal scrollbar to see the other images.&lt;/h3&gt;
 
 &lt;div class=&quot;scroll-container&quot;&gt;
-  &lt;img src=&quot;../../../docker1.png&quot; alt=&quot;docker-compose pt.1&quot; /&gt;
-  &lt;img src=&quot;../../../docker1.png&quot; alt=&quot;docker-compose pt.2&quot; /&gt;
-  &lt;img src=&quot;../../../docker1.png&quot; alt=&quot;docker-compose pt.3&quot; /&gt;
-  &lt;img src=&quot;../../../dockerps.png&quot; alt=&quot;docker containers running&quot; /&gt;
+  &lt;img src=&quot;../../../Images/docker1.png&quot; alt=&quot;docker-compose pt.1&quot; /&gt;
+  &lt;img src=&quot;../../../Images/docker1.png&quot; alt=&quot;docker-compose pt.2&quot; /&gt;
+  &lt;img src=&quot;../../../Images/docker1.png&quot; alt=&quot;docker-compose pt.3&quot; /&gt;
+  &lt;img src=&quot;../../../Images/dockerps.png&quot; alt=&quot;docker containers running&quot; /&gt;
 &lt;/div&gt;
-&lt;/body&gt;</content><author><name></name></author><summary type="html">layout: post title: “Plex server on docker” date: 2023-11-30 20:54:23 -0700 categories: portfolio update</summary></entry><entry><title type="html">3d Renders</title><link href="http://localhost:4000/2023/11/27/3d-renders.html" rel="alternate" type="text/html" title="3d Renders" /><published>2023-11-27T00:00:00-07:00</published><updated>2023-11-27T00:00:00-07:00</updated><id>http://localhost:4000/2023/11/27/3d-renders</id><content type="html" xml:base="http://localhost:4000/2023/11/27/3d-renders.html">&lt;hr /&gt;
+&lt;/body&gt;</content><author><name></name></author><summary type="html">layout: post title: “Plex server on docker” date: 2023-11-30 20:54:23 -0700 categories: portfolio update projects</summary></entry><entry><title type="html">3d Renders</title><link href="http://localhost:4000/2023/11/27/3d-renders.html" rel="alternate" type="text/html" title="3d Renders" /><published>2023-11-27T00:00:00-07:00</published><updated>2023-11-27T00:00:00-07:00</updated><id>http://localhost:4000/2023/11/27/3d-renders</id><content type="html" xml:base="http://localhost:4000/2023/11/27/3d-renders.html">&lt;hr /&gt;
 &lt;p&gt;layout: post
 title:  “3D Renders”
 date:   2023-11-27 12:51:00 -0700
-categories: portfolio update&lt;/p&gt;
+categories: portfolio update projects&lt;/p&gt;
 
 &lt;div style=&quot;text-align:center&quot;&gt;
   &lt;h2&gt;Image Gallery&lt;/h2&gt;
@@ -123,32 +143,32 @@ body {
 
 &lt;main class=&quot;grid&quot;&gt;
 	&lt;div class=&quot;column&quot;&gt;
-	  &lt;img src=&quot;../../../As.png&quot; alt=&quot;Adult Swim Project&quot; title=&quot;Rigid body physics project&quot; style=&quot;width:100%&quot; onclick=&quot;myFunction(this);&quot; /&gt; 
+	  &lt;img src=&quot;../../../Images/As.png&quot; alt=&quot;Adult Swim Project&quot; title=&quot;Rigid body physics project&quot; style=&quot;width:100%&quot; onclick=&quot;myFunction(this);&quot; /&gt; 
 	&lt;center&gt;&lt;p&gt; Project using rigid body physics and Blender 3D&lt;br /&gt;
 	&lt;a href=&quot;https://youtu.be/XiytOGEyof4&quot;&gt;Watch on Youtube&lt;/a&gt; &lt;/p&gt;&lt;/center&gt;
 	&lt;/div&gt;
 	&lt;div class=&quot;column&quot;&gt;
-	  &lt;img src=&quot;../../../Scene_1_14.2856507.png&quot; alt=&quot;Unreal Engine 5 Project&quot; title=&quot;UE5 hyperrealism project&quot; style=&quot;width:100%&quot; onclick=&quot;myFunction(this);&quot; /&gt;
+	  &lt;img src=&quot;../../../Images/ue5castle.png&quot; alt=&quot;Unreal Engine 5 Project&quot; title=&quot;UE5 hyperrealism project&quot; style=&quot;width:100%&quot; onclick=&quot;myFunction(this);&quot; /&gt;
 	&lt;center&gt;&lt;p&gt; Project using Unreal Engine 5 and hyperrealism,&lt;br /&gt;
 	&lt;a href=&quot;https://youtu.be/IPh1gfI_ELg&quot;&gt;Watch on Youtube&lt;/a&gt; &lt;/p&gt;&lt;/center&gt;
 	&lt;/div&gt;
 	&lt;div class=&quot;column&quot;&gt;
-		&lt;img src=&quot;../../../IMG_3608.PNG&quot; alt=&quot;Gary the Snail Project&quot; title=&quot;Gary the Snail 3D Model&quot; style=&quot;width:100%&quot; onclick=&quot;myFunction(this);&quot; /&gt;
+		&lt;img src=&quot;../../../Images/garythesnail.png&quot; alt=&quot;Gary the Snail Project&quot; title=&quot;Gary the Snail 3D Model&quot; style=&quot;width:100%&quot; onclick=&quot;myFunction(this);&quot; /&gt;
 		&lt;center&gt;&lt;p&gt; Everyone&apos;s favorite snail under the sea. Made using Blender 3D&lt;br /&gt;
 		&lt;a href=&quot;https://youtu.be/AjWMDOmRDCM&quot;&gt;Watch on Youtube&lt;/a&gt; &lt;/p&gt;&lt;/center&gt;
 	&lt;/div&gt;
 	&lt;div class=&quot;column&quot;&gt;
-		&lt;img src=&quot;../../../pochita.png&quot; alt=&quot;Pochita Project&quot; title=&quot;Pochita 3D model&quot; style=&quot;width:100%&quot; onclick=&quot;myFunction(this);&quot; /&gt;
+		&lt;img src=&quot;../../../Images/pochita.png&quot; alt=&quot;Pochita Project&quot; title=&quot;Pochita 3D model&quot; style=&quot;width:100%&quot; onclick=&quot;myFunction(this);&quot; /&gt;
 		&lt;center&gt;&lt;p&gt; From the anime &quot;Chainsaw Man&quot;, meet Pochita! Made using Blender 3D.&lt;br /&gt;
 		&lt;a href=&quot;https://youtu.be/bXE-1yHpDj0&quot;&gt;Watch on Youtube&lt;/a&gt; &lt;/p&gt;&lt;/center&gt;
 	&lt;/div&gt;
 	&lt;div class=&quot;column&quot;&gt;
-		&lt;img src=&quot;../../../josuke_duck.png&quot; alt=&quot;Josuke x Quaxly&quot; title=&quot;Quaxly 3D model&quot; style=&quot;width:100%&quot; onclick=&quot;myFunction(this);&quot; /&gt;
+		&lt;img src=&quot;../../../Images/josuke_duck.png&quot; alt=&quot;Josuke x Quaxly&quot; title=&quot;Quaxly 3D model&quot; style=&quot;width:100%&quot; onclick=&quot;myFunction(this);&quot; /&gt;
 	&lt;center&gt;&lt;p&gt; New pokemon Quaxly reminds me of a certain anime protaganist. See the bizzare mashup:&lt;br /&gt;
 	&lt;a href=&quot;https://youtube.com/shorts/OrEJMWsSIxU&quot;&gt;Watch him dance on Youtube&lt;/a&gt; &lt;/p&gt;&lt;/center&gt;
 	&lt;/div&gt;
 	&lt;div class=&quot;column&quot;&gt;
-		&lt;img src=&quot;../../../IMG_4289.jpg&quot; alt=&quot;Chao project&quot; title=&quot;Chao 3D model&quot; style=&quot;width:100%&quot; onclick=&quot;myFunction(this);&quot; /&gt;
+		&lt;img src=&quot;../../../Images/chao.jpg&quot; alt=&quot;Chao project&quot; title=&quot;Chao 3D model&quot; style=&quot;width:100%&quot; onclick=&quot;myFunction(this);&quot; /&gt;
 	&lt;center&gt;&lt;p&gt; From the old-school Sonic Adventure games, check out this Chao!&lt;br /&gt;
 	&lt;a href=&quot;https://youtube.com/shorts/OqLNxltQJgI&quot;&gt;Watch on Youtube&lt;/a&gt; &lt;/p&gt;&lt;/center&gt;
 	&lt;/div&gt;
@@ -231,11 +251,36 @@ function myFunction(imgs) {
 	style=&quot;width:100%&quot;
 	onclick=&quot;myFunction(this);&quot; /&gt;
 &lt;center&gt;&lt;p&gt; From the old-school Sonic Adventure games, check out this Chao!&lt;br&gt;
-&lt;a href=&quot;https://youtube.com/shorts/OqLNxltQJgI&quot;&gt;Watch on Youtube&lt;/a&gt; &lt;/p&gt;&lt;/center&gt; --&gt;</content><author><name></name></author><summary type="html">layout: post title: “3D Renders” date: 2023-11-27 12:51:00 -0700 categories: portfolio update</summary></entry><entry><title type="html">Crochet Projects</title><link href="http://localhost:4000/2023/11/27/crochet-projects.html" rel="alternate" type="text/html" title="Crochet Projects" /><published>2023-11-27T00:00:00-07:00</published><updated>2023-11-27T00:00:00-07:00</updated><id>http://localhost:4000/2023/11/27/crochet-projects</id><content type="html" xml:base="http://localhost:4000/2023/11/27/crochet-projects.html">&lt;hr /&gt;
+&lt;a href=&quot;https://youtube.com/shorts/OqLNxltQJgI&quot;&gt;Watch on Youtube&lt;/a&gt; &lt;/p&gt;&lt;/center&gt; --&gt;</content><author><name></name></author><summary type="html">layout: post title: “3D Renders” date: 2023-11-27 12:51:00 -0700 categories: portfolio update projects</summary></entry><entry><title type="html">Portfolio is Live, Github Pages, and Jekyll</title><link href="http://localhost:4000/2023/11/27/portfolio-is-live,-github-pages,-and-jekyll.html" rel="alternate" type="text/html" title="Portfolio is Live, Github Pages, and Jekyll" /><published>2023-11-27T00:00:00-07:00</published><updated>2023-11-27T00:00:00-07:00</updated><id>http://localhost:4000/2023/11/27/portfolio%20is-live,-github-pages,%20and-jekyll</id><content type="html" xml:base="http://localhost:4000/2023/11/27/portfolio-is-live,-github-pages,-and-jekyll.html">&lt;hr /&gt;
+&lt;p&gt;layout: post
+title:  “Portfolio is live!”
+date:   2023-11-27 12:24:23 -0700
+categories: site update&lt;/p&gt;
+
+&lt;p&gt;I had a basic HTML Github pages but decided it was time to upgrade. 
+During this project I learned more about managing git repositories, Jekyll, and a little Ruby. 
+Let’s see how far I can customize this site for my needs! :)&lt;/p&gt;
+
+&lt;p&gt;If you’re interested in how I made this free site check out: &lt;a href=&quot;https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/about-github-pages-and-jekyll&quot;&gt;Github Docs; Github Pages how to&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Also check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><summary type="html">layout: post title: “Portfolio is live!” date: 2023-11-27 12:24:23 -0700 categories: site update</summary></entry><entry><title type="html">Wow Private Server using Mysql, cmake, c++ compiling, docker, &amp;amp; proxy forwarding</title><link href="http://localhost:4000/2023/11/27/wow-private-server-using-mysql,-cmake,-c++-compiling,-docker,-&-proxy-forwarding.html" rel="alternate" type="text/html" title="Wow Private Server using Mysql, cmake, c++ compiling, docker, &amp;amp; proxy forwarding" /><published>2023-11-27T00:00:00-07:00</published><updated>2023-11-27T00:00:00-07:00</updated><id>http://localhost:4000/2023/11/27/wow-private-server%20using-mysql,%20cmake,%20c++%20compiling,%20docker,%20&amp;%20proxy%20forwarding</id><content type="html" xml:base="http://localhost:4000/2023/11/27/wow-private-server-using-mysql,-cmake,-c++-compiling,-docker,-&amp;-proxy-forwarding.html">&lt;hr /&gt;
+&lt;p&gt;layout: post
+title:  “World of Warcraft private server - Azerothcore”
+date:   2023-11-27 17:02:00 -0700
+categories: portfolio update projects&lt;/p&gt;
+
+&lt;p&gt;About a decade ago when the Wrath of the Litch expansion released I had started up a private server on my very first computer. &lt;/p&gt;
+&lt;p&gt;I did not understand as much about computers/networking as I do now so I wanted to re-attempt. 
+I found an opensource project called Azerothcore and started my project.
+It turned out to be a great learning exercise utilizing MySQL, C-Make, VS Studio C++ compiling, docker, and proxy forwarding. &lt;/p&gt;
+&lt;p&gt;The end result was a server I could run on my laptop and play from anywhere, even utilizing a forked branch of the main respository that has a module for simulating players using bots based off real player-data. Check out the pics below: &lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;../../../Images/azerthcre.png&quot; alt=&quot;Azerothcore booting up&quot; title=&quot;Servers booting up&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../../../Images/wow_bots.png&quot; alt=&quot;WoW playerbots&quot; title=&quot;WoW playerbots&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">layout: post title: “World of Warcraft private server - Azerothcore” date: 2023-11-27 17:02:00 -0700 categories: portfolio update projects</summary></entry><entry><title type="html">Crochet Projects</title><link href="http://localhost:4000/2023/11/27/crochet-projects.html" rel="alternate" type="text/html" title="Crochet Projects" /><published>2023-11-27T00:00:00-07:00</published><updated>2023-11-27T00:00:00-07:00</updated><id>http://localhost:4000/2023/11/27/crochet-projects</id><content type="html" xml:base="http://localhost:4000/2023/11/27/crochet-projects.html">&lt;hr /&gt;
 &lt;p&gt;layout: post
 title:  “Crocheting”
 date:   2023-11-27 13:20:23 -0700
-categories: portfolio hobby&lt;/p&gt;
+categories: portfolio updates hobby&lt;/p&gt;
 
 &lt;head&gt;
 &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot; /&gt;
@@ -307,18 +352,19 @@ body {
 &lt;div style=&quot;text-align:left&quot;&gt;
   &lt;p&gt;My crochet journey started in June of 2023 with a shark kit from woobles. They had video guides that were very helpful and
   after finishing my first project I was hooked.
-  &lt;p&gt;Enjoy my projects below, and reach out to me for any questions on comissions. &lt;/p&gt;
+  &lt;p&gt;Enjoy my projects below, and reach out to me for any questions on comissions. &lt;br /&gt;
+  &lt;small&gt;click on the images below to expand them&lt;/small&gt;
 
 &lt;!-- The four columns --&gt;
 &lt;div class=&quot;row&quot;&gt;
   &lt;div class=&quot;column&quot;&gt;
-    &lt;img src=&quot;../../../c_collection.jpeg&quot; alt=&quot;Most of the collection&quot; style=&quot;width:100%&quot; onclick=&quot;myFunction(this);&quot; /&gt;
+    &lt;img src=&quot;../../../Images/c_collection.jpeg&quot; alt=&quot;Most of the collection&quot; style=&quot;width:100%&quot; onclick=&quot;myFunction(this);&quot; /&gt;
   &lt;/div&gt;
   &lt;div class=&quot;column&quot;&gt;
-    &lt;img src=&quot;../../../c_mimics.jpg&quot; alt=&quot;Functional mimic chests&quot; style=&quot;width:100%&quot; onclick=&quot;myFunction(this);&quot; /&gt;
+    &lt;img src=&quot;../../../Images/c_mimics.jpg&quot; alt=&quot;Functional mimic chests&quot; style=&quot;width:100%&quot; onclick=&quot;myFunction(this);&quot; /&gt;
   &lt;/div&gt;
   &lt;div class=&quot;column&quot;&gt;
-    &lt;img src=&quot;../../../c_shark.png&quot; alt=&quot;First crochet project&quot; style=&quot;width:100%&quot; onclick=&quot;myFunction(this);&quot; /&gt;
+    &lt;img src=&quot;../../../Images/c_shark.png&quot; alt=&quot;First crochet project&quot; style=&quot;width:100%&quot; onclick=&quot;myFunction(this);&quot; /&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 
@@ -337,29 +383,4 @@ function myFunction(imgs) {
   expandImg.parentElement.style.display = &quot;block&quot;;
 }
 &lt;/script&gt;
-&lt;/p&gt;&lt;/div&gt;</content><author><name></name></author><summary type="html">layout: post title: “Crocheting” date: 2023-11-27 13:20:23 -0700 categories: portfolio hobby</summary></entry><entry><title type="html">Portfolio Is Live</title><link href="http://localhost:4000/2023/11/27/portfolio-is-live.html" rel="alternate" type="text/html" title="Portfolio Is Live" /><published>2023-11-27T00:00:00-07:00</published><updated>2023-11-27T00:00:00-07:00</updated><id>http://localhost:4000/2023/11/27/portfolio-is-live</id><content type="html" xml:base="http://localhost:4000/2023/11/27/portfolio-is-live.html">&lt;hr /&gt;
-&lt;p&gt;layout: post
-title:  “Portfolio is live!”
-date:   2023-11-27 12:24:23 -0700
-categories: site update&lt;/p&gt;
-
-&lt;p&gt;I had a basic HTML Github pages but decided it was time to upgrade. 
-During this project I learned more about managing git repositories, Jekyll, and a little Ruby. 
-Let’s see how far I can customize this site for my needs! :)&lt;/p&gt;
-
-&lt;p&gt;If you’re interested in how I made this free site check out: &lt;a href=&quot;https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/about-github-pages-and-jekyll&quot;&gt;Github Docs; Github Pages how to&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Also check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><summary type="html">layout: post title: “Portfolio is live!” date: 2023-11-27 12:24:23 -0700 categories: site update</summary></entry><entry><title type="html">Wow Private Server</title><link href="http://localhost:4000/2023/11/27/wow-private-server.html" rel="alternate" type="text/html" title="Wow Private Server" /><published>2023-11-27T00:00:00-07:00</published><updated>2023-11-27T00:00:00-07:00</updated><id>http://localhost:4000/2023/11/27/wow-private-server</id><content type="html" xml:base="http://localhost:4000/2023/11/27/wow-private-server.html">&lt;hr /&gt;
-&lt;p&gt;layout: post
-title:  “World of Warcraft private server - Azerothcore”
-date:   2023-11-27 17:02:00 -0700
-categories: site update&lt;/p&gt;
-
-&lt;p&gt;About a decade ago when the Wrath of the Litch expansion released I had started up a private server on my very first computer. &lt;/p&gt;
-&lt;p&gt;I did not understand as much about computers/networking as I do now so I wanted to re-attempt. 
-I found an opensource project called Azerothcore and started my project.
-It turned out to be a great learning exercise utilizing MySQL, C-Make, VS Studio C++ compiling, docker, and proxy forwarding. &lt;/p&gt;
-&lt;p&gt;The end result was a server I could run on my laptop and play from anywhere, even utilizing a forked branch of the main respository that has a module for simulating players using bots based off real player-data. Check out the pics below: &lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;../../../azerthcre.png&quot; alt=&quot;Azerothcore booting up&quot; title=&quot;Servers booting up&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;../../../wow_bots.png&quot; alt=&quot;WoW playerbots&quot; title=&quot;WoW playerbots&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">layout: post title: “World of Warcraft private server - Azerothcore” date: 2023-11-27 17:02:00 -0700 categories: site update</summary></entry></feed>
+&lt;/p&gt;&lt;/p&gt;&lt;/div&gt;</content><author><name></name></author><summary type="html">layout: post title: “Crocheting” date: 2023-11-27 13:20:23 -0700 categories: portfolio updates hobby</summary></entry></feed>

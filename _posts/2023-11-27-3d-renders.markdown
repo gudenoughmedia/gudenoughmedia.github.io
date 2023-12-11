@@ -2,7 +2,7 @@
 layout: post
 title:  "3D Renders"
 date:   2023-11-27 12:51:00 -0700
-categories: portfolio update
+categories: portfolio update projects
 
 <div style="text-align:center">
   <h2>Image Gallery</h2>
@@ -86,7 +86,7 @@ body {
 <main class="grid">
 	<div class="column">
 	  <img 
-		src="../../../As.png" 
+		src="../../../Images/As.png" 
 		alt="Adult Swim Project" 
 		title="Rigid body physics project" 
 		style="width:100%"
@@ -96,7 +96,7 @@ body {
 	</div>
 	<div class="column">
 	  <img 
-		src="../../../Scene_1_14.2856507.png" 
+		src="../../../Images/ue5castle.png" 
 		alt="Unreal Engine 5 Project" 
 		title="UE5 hyperrealism project" 
 		style="width:100%"
@@ -106,7 +106,7 @@ body {
 	</div>
 	<div class="column">
 		<img 
-		src="../../../IMG_3608.PNG" 
+		src="../../../Images/garythesnail.png"
 		alt="Gary the Snail Project" 
 		title="Gary the Snail 3D Model" 
 		style="width:100%"
@@ -116,7 +116,7 @@ body {
 	</div>
 	<div class="column">
 		<img 
-		src="../../../pochita.png" 
+		src="../../../Images/pochita.png" 
 		alt="Pochita Project" 
 		title="Pochita 3D model" 
 		style="width:100%"
@@ -126,7 +126,7 @@ body {
 	</div>
 	<div class="column">
 		<img 
-	src="../../../josuke_duck.png" 
+	src="../../../Images/josuke_duck.png" 
 	alt="Josuke x Quaxly" 
 	title="Quaxly 3D model"
 	style="width:100%"
@@ -136,7 +136,7 @@ body {
 	</div>
 	<div class="column">
 		<img 
-	src="../../../IMG_4289.jpg" 
+	src="../../../Images/chao.jpg" 
 	alt="Chao project" 
 	title="Chao 3D model" 
 	style="width:100%"
