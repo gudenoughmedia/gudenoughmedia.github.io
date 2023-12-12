@@ -19,6 +19,6 @@ categories: portfolio update projects
 </p>
 
 <img 
-	src="../../../Images/homelab.jpg" 
+	src="../../../Images/homelab.JPG" 
 	alt="Homelab setup" 
 	title="My Homelab setup" />
