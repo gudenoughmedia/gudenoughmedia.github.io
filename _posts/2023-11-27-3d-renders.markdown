@@ -106,7 +106,7 @@ body {
 	</div>
 	<div class="column">
 		<img 
-		src="../../../Images/garythesnail.png"
+		src="../../../Images/garythesnail.PNG"
 		alt="Gary the Snail Project" 
 		title="Gary the Snail 3D Model" 
 		style="width:100%"

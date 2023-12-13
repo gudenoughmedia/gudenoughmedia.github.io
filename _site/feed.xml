@@ -1,4 +1,19 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-12-12T18:23:40-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Home</title><subtitle>Hi my name is Christian Neff, I have a lot of unique hobbies I&apos;ve acquired through the years.  To name a few: crocheting, 3d animation &amp; video production, video/disc jockeying, music production,  and homelab network projects. </subtitle><entry><title type="html">Cloudflare Zero Trust Tunneling Samba Share</title><link href="http://localhost:4000/2023/12/12/cloudflare-zero-trust-tunneling-samba-share.html" rel="alternate" type="text/html" title="Cloudflare Zero Trust Tunneling Samba Share" /><published>2023-12-12T00:00:00-07:00</published><updated>2023-12-12T00:00:00-07:00</updated><id>http://localhost:4000/2023/12/12/cloudflare-zero-trust-tunneling-samba-share</id><content type="html" xml:base="http://localhost:4000/2023/12/12/cloudflare-zero-trust-tunneling-samba-share.html">&lt;hr /&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-12-13T16:35:19-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Home</title><subtitle>Hi my name is Christian Neff, I have a lot of unique hobbies I&apos;ve acquired through the years.  To name a few: crocheting, 3d animation &amp; video production, video/disc jockeying, music production,  and homelab network projects. </subtitle><entry><title type="html">Surgical Animation Showcase</title><link href="http://localhost:4000/2023/12/13/surgical-animation-showcase.html" rel="alternate" type="text/html" title="Surgical Animation Showcase" /><published>2023-12-13T00:00:00-07:00</published><updated>2023-12-13T00:00:00-07:00</updated><id>http://localhost:4000/2023/12/13/surgical-animation-showcase</id><content type="html" xml:base="http://localhost:4000/2023/12/13/surgical-animation-showcase.html">&lt;hr /&gt;
+&lt;p&gt;layout: post
+title:  “Samba share with cloudflare zero trust tunneling”
+date:   2023-12-13 16:29:00 -0700
+categories: portfolio update projects&lt;/p&gt;
+
+&lt;p&gt;Finally uploaded my surgical animation showcase to Youtube. &lt;/p&gt;
+&lt;p&gt;
+	This is a collection of some surgical animations I made during my time as Lead Animator. 
+	Everything you see is sped up, the original animations were around a minute long with information specific to the surgery annotated on top. 
+	Every animation is a real patient and real surgery, with PI removed. &lt;br /&gt;&lt;br /&gt;
+	Check it out below. &lt;small&gt;(click the image to go to the Youtube video!)&lt;/small&gt; &lt;br /&gt;&lt;br /&gt;
+	&lt;a href=&quot;https://www.youtube.com/watch?v=O5jHXNj-9Os&quot;&gt;
+	&lt;img src=&quot;../../../Images/showcase.PNG&quot; alt=&quot;Surgical showcase&quot; title=&quot;Surgical animation showcase&quot; /&gt;
+	&lt;/a&gt; 
+&lt;/p&gt;</content><author><name></name></author><summary type="html">layout: post title: “Samba share with cloudflare zero trust tunneling” date: 2023-12-13 16:29:00 -0700 categories: portfolio update projects</summary></entry><entry><title type="html">Cloudflare Zero Trust Tunneling Samba Share</title><link href="http://localhost:4000/2023/12/12/cloudflare-zero-trust-tunneling-samba-share.html" rel="alternate" type="text/html" title="Cloudflare Zero Trust Tunneling Samba Share" /><published>2023-12-12T00:00:00-07:00</published><updated>2023-12-12T00:00:00-07:00</updated><id>http://localhost:4000/2023/12/12/cloudflare-zero-trust-tunneling-samba-share</id><content type="html" xml:base="http://localhost:4000/2023/12/12/cloudflare-zero-trust-tunneling-samba-share.html">&lt;hr /&gt;
 &lt;p&gt;layout: post
 title:  “Samba share with cloudflare zero trust tunneling”
 date:   2023-12-12 17:35:00 -0700
@@ -161,7 +176,7 @@ body {
 	&lt;a href=&quot;https://youtu.be/IPh1gfI_ELg&quot;&gt;Watch on Youtube&lt;/a&gt; &lt;/p&gt;&lt;/center&gt;
 	&lt;/div&gt;
 	&lt;div class=&quot;column&quot;&gt;
-		&lt;img src=&quot;../../../Images/garythesnail.png&quot; alt=&quot;Gary the Snail Project&quot; title=&quot;Gary the Snail 3D Model&quot; style=&quot;width:100%&quot; onclick=&quot;myFunction(this);&quot; /&gt;
+		&lt;img src=&quot;../../../Images/garythesnail.PNG&quot; alt=&quot;Gary the Snail Project&quot; title=&quot;Gary the Snail 3D Model&quot; style=&quot;width:100%&quot; onclick=&quot;myFunction(this);&quot; /&gt;
 		&lt;center&gt;&lt;p&gt; Everyone&apos;s favorite snail under the sea. Made using Blender 3D&lt;br /&gt;
 		&lt;a href=&quot;https://youtu.be/AjWMDOmRDCM&quot;&gt;Watch on Youtube&lt;/a&gt; &lt;/p&gt;&lt;/center&gt;
 	&lt;/div&gt;
