@@ -11,6 +11,6 @@ categories: portfolio update projects
 	Every animation is a real patient and real surgery, with PI removed. <br><br>
 	Check it out below. <small>(click the image to go to the Youtube video!)</small> <br><br>
 	<a href="https://www.youtube.com/watch?v=O5jHXNj-9Os">
-	<img src="../../../Images/showcase.PNG" alt="Surgical showcase" title="Surgical animation showcase" />
+	<img src="../../../Images/showcase.png" alt="Surgical showcase" title="Surgical animation showcase" />
 	</a> 
 </p>
