@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Portfolio is live!"
+title:  "Homelab setup"
 date:   2023-12-11 16:08:00 -0700
 categories: portfolio update projects
 
